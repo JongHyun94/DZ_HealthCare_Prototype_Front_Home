@@ -9,7 +9,7 @@ function AppHeader() {
   const [selectMenu, setSelectMenu] = useRecoilState(selectedMenu);
   return (
     <div className="AppHeader">
-      <Link to={"/"}>
+      <Link to={"/"} className="MainIcon">
         <img
           src={"menuIcon/wehago_b.svg"}
           alt={"wehago"}

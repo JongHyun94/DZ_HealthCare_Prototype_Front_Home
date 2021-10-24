@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <AppSnb />
-      <div className="ContentArea">
+      <div className="MainArea">
         <AppHeader />
         <AppContent />
       </div>
